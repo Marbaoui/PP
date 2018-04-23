@@ -14,7 +14,7 @@
 		try
 		{
 			
-			$bdd = new PDO('pgsql:host=localhost;dbname=arbaoui', 'arbaoui',                                                                                                                              'nrmg3mp6');
+			$bdd = new PDO('pgsql:host=localhost;dbname=arbaoui', 'youraccount',                                                                                                                              'secret');
 		}
 		catch(Exception $e)
 		{
